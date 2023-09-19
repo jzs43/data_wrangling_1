@@ -55,6 +55,20 @@ pulse_df = janitor::clean_names(pulse_df)
 pulse_df
 ```
 
+## comparison with base r
+what about 'read.csv'...? (no)
+
+```{r}
+litter_base = read.csv("data/FAS_litters.csv")
+litter_readr = read_csv("data/FAS_litters.csv")
+litter_base
+litter_readr
+```
+
+
+
+
+
 
 
 
