@@ -48,6 +48,42 @@ relocate(id,visit) %>%
 pulse_data
 ```
 
+## 'pivot_wider'
+
+make up some data
+
+```{r}
+analysis_results=
+  tibble(
+    group=c("treatment","treatment","placebo","placebo"),
+    time=c("pre","post","pre","post"),
+    mean=c(4,8,3.5,4)
+  )
+
+analysis_results %>% 
+  pivot_wider(
+    names_from = "time",
+    values_from = "mean"
+  )
+analysis_results
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
