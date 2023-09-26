@@ -15,3 +15,9 @@ library(tidyverse)
     ## ✖ dplyr::filter() masks stats::filter()
     ## ✖ dplyr::lag()    masks stats::lag()
     ## ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+
+## load in the FAS Litters data
+
+``` r
+litters_ds=read.csv("./data/FAS_litters.csv")
+```

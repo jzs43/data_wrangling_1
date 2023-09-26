@@ -8,3 +8,9 @@ output: github_document
 library(tidyverse)
 ```
 
+## load in the FAS Litters data
+
+```{r}
+litters_ds=read.csv("./data/FAS_litters.csv")
+```
+
